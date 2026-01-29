@@ -21,7 +21,12 @@ test.describe('Singlish to Sinhala Conversion Tests', () => {
     {
       id: 'Pos_Fun_0003',
       input: 'mata thuvaala vune maava accident vuna nisaa.',
-      expected: 'මට තුවාල වුනෙ මාව accident වුන නිසා.'
+      expected: 'මට තුවාල වුනෙ මාව accident වුන නිසා'
+    },
+    {
+      id: 'Pos_Fun_0004',
+      input: 'oyaa edhdhi eekath aragena enavadha?',
+      expected: 'ඔයා එද්දි ඒකත් අරගෙන එනවද?'
     },
     // ඔබේ අනෙක් test cases මෙහි add කරන්න...
   ];
